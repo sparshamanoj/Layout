@@ -40,7 +40,7 @@
 }
 /*RESPONSIVE RULE */
 
-}
+
 /* Features*/
     .featuers{
 
@@ -72,12 +72,7 @@
 
     }
     /*RESPONSIVE RULE */
-    @media screen and(max width:715px) {
-      .features{
-        display:block;
-      }
-
-    }
+   
 
     footer{
       background-color: black;
