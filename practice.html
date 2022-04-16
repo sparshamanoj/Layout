@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+    body{
+      background-color: gray;
+    }
+    ul{
+      list-style-type: none;
+      padding:1px;
+    }
+    li{
+      display: inline-block;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    li:first-child{
+      margin-left:0;
+    }
+    li:last-child{
+      background-color: green;
+    }
+    li:hover{
+      text-decoration: underline;
+    }
+    a{
+  text-decoration: none;
+    }
+    li:hover{
+      background-color: blue;
+    }
+    section.feature-box{
+      display:flex;
+
+    }
+    .feature-box div{
+      margin: 1px;
+      width:15%;
+      padding: 1px;
+    }
+    .feature-box.sales div{
+      background-color: pink;
+
+    }
+    .feature-box.closes div{
+      background-color: red;
+
+      }
+
+
+      </style>
+  </head>
+
+  <body>
+
+    <Header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li >
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>Direction</li>
+        </ul>
+        </ul>
+      </nav>
+    </header>
+    <section class="feature-box sales">
+    <div>section A</div>
+      <div>section B</div>
+        <div>section C</div>
+    </section>
+
+    <section class="feature-box closes">
+    <div>section D</div>
+      <div>section E</div>
+
+    </section>
+  </body>
+</html>
