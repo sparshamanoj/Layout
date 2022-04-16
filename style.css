@@ -43,9 +43,7 @@
 }
 /*RESPONSIVE RULE */
 @media screen and (max-width:715px) {
-  header{
-    height:200px;
-  }
+
 header .mobile{
   display: inline-block;
 }
